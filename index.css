@@ -113,12 +113,16 @@ body {
 .priority-color {
     height: 3rem;
     width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .ticket-cont{
     height: 12rem;
     width: 15rem;
     background-color: rgb(110, 52, 31);
+    position: relative;
 }
 
 .ticket-color{
@@ -131,10 +135,10 @@ body {
 }
 
 .ticket-lock{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 120px;
-    margin-right: 5px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    font-size: 1.5rem;
 }
 
 .main-cont{
